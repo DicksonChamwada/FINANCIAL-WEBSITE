@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author"   content="Dickson Chamwada">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="shortcut icon" href="favicon/fav-con.png" type="image/x-icon">
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Banking Website</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo/logo-no-background.png" alt="logo"></div>
+       <div class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+      </ul>
+       </div>
+       <a href="#GetStarted" class="hero-btn">Get Started</a>
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+                <li><a href="#GetStarted" class="hero-btn">Get Started</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <!-- home section contents -->
+  <section id="Home" class="Home-content">
+    <h2> We Offer Proffessional <br> Financial Analytics <span class="icov">& Strategies</span></h2>
+    <p>We are Financial firm designed to offer Financial management, <br> advises
+      and Strategies to help curb the expenses, <br>
+      and build a pool of diverse wealth.</p>
+    <div class="buttons"> 
+    <a href="#" class="btn-box" > Get Started</a>
+    <a href="#" class="btn-box"> Contact Us</a>
+  </section>
+  <!-- About contents -->
+  <section id="About" class="About-content">
+    <div class="container">
+    <h2 class="lead">
+      Welcome To Chamwfinance</h2>
+      <p> At Chamwfinance we are committed to providing exceptional financial services and customers
+         support. <br>
+         Established in 1922 we are a trusted name in financial assistance and services. </p>
+         <div class="vision-mission">
+           <h2 class="lead"> Our Mission</h2>
+           <p > Our Mission is to empower our customers with reliable, innovative, and secure
+            financial services. <br>
+            We priotize intergrity, customer focus, and communnication invovlment to our customers.
+           </p>
+
+           <h2 class="lead"> Our Vision</h2>
+           <p>Our Vision is to be the leading financial institution recognized for our commitment,
+            to customers satisfaction, <br> innovation and community development. We aim to create a positive
+            impact on the lives of our customers and the communities we serve.
+           </p>
+         </div>
+    </div>
+  </section>
+
+ <!-- services utilities -->
+ <section id="Services" class="services-section">
+  <div class="wrapper">
+    <div class="box">
+      <i class="bx bxs-badge-dollar bx-lg"></i>
+      <h3>Financial Services</h3>
+      <p>Our Dollar Services are designed to meet your international and local financial needs with ease and efficiency. Whether you're looking to exchange currency, open a dollar-denominated account, or manage cross-border transactions, Chamwfinance offers competitive rates and secure services. Our team of experts is here to provide you with the best solutions, ensuring that your global financial operations are seamless and convenient.</p>
+    </div>
+    <div class="box">
+      <i class="bx bxs-building-house bx-lg"></i>
+      <h3>Housing Finance</h3>
+      <p>At Chamwfinance, we understand that owning a home is a significant milestone. Our Housing Finance services offer a variety of mortgage options tailored to suit your financial situation and goals. From first-time homebuyers to seasoned property investors, our flexible loan terms and competitive interest rates make it easier for you to finance your dream home. Our dedicated mortgage advisors will guide you through the entire process, providing personalized support and expert advice every step of the way.</p>
+    </div>
+    <div class="box">
+      <i class="bx bxs-credit-card-front bx-lg"></i>
+      <h3>Travel Finances</h3>
+      <p>Traveling should be about enjoyment and exploration, not financial stress. Chamwfinance Travel Finances services are designed to support your travel plans with a range of financial products, including travel loans, foreign currency exchange, and international payment solutions. Whether you're planning a family vacation, a business trip, or an overseas adventure, we offer secure and convenient financial services to ensure that your journey is smooth and worry-free.</p>
+    </div>
+    <div class="box">
+      <i class="bx bxs-plane-alt bx-lg"></i>
+      <h3>Credit Loans</h3>
+      <p>Our Credit Loans services provide you with the financial flexibility you need to achieve your personal and professional goals. Whether you're looking to consolidate debt, finance a major purchase, or cover unexpected expenses, Chamwfinance offers a variety of loan products with competitive rates and flexible repayment options. Our straightforward application process and quick approval times mean you can access the funds you need when you need them, with the support of our experienced loan officers.</p>
+    </div>
+  </div>
+</section>
+<!-- Contact section -->
+<section id="Contact Us" class="contact-us">
+<div class="form-box">
+<h2>Send Us a Message</h2>
+<form id="contactForm" action="/submit-contact-form" method="POST">
+  <div class="input-box">
+  <label for="Name">Name</label> <br>
+  <input type="text" id="name" placeholder="Full Names" required> <br>
+</div>
+<div class="input-box">
+  <label for="Email">Email</label> <br>
+  <input type="email" id="email" placeholder="email" required> <br>
+</div>
+<div class="input-box">
+  <label for="Comment or message">Comment or Message</label> <br>
+  <textarea name="Comment" id="" cols="30" rows="10"></textarea>
+</div>
+<button class="submit">Submit</button>
+</form>
+</div>
+</section>
+<!-- Footer section -->
+<footer class="footer">
+  <div class="social">
+   <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+   <a href="#"><i class='bx bxl-linkedin'></i></a>
+   <a href="#"><i class='bx bxl-facebook' ></i></a>
+   <a href="#"><i class='bx bxl-twitter' ></i></a>
+  </div>
+  <ul>
+   <li> <a href="#">FAQ</a></li>
+   <li> <a href="#">Service</a></li>
+   <li> <a href="#">About us</a></li>
+   <li> <a href="#">Contact</a></li>
+   <li> <a href="#">Privacy Policy</a></li>
+  </ul>
+  <p class="copyright">@2024 Chamwada | All Rights Reserved </p>
+ </footer>
+    <script src="index.js"></script>
+</body>
+<!-- The whole website was purely done by Dickson Chamwada. All rights are reserved.
+The whole creation of it was for educational  purpose and for both challenging,
+ And callousing my mind to be creative and innovative. The prototype of the website lies with me.  -->
+</html>
