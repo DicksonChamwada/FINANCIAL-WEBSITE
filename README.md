@@ -1,5 +1,6 @@
 
-#FINANCIAL-WEBSITE
+ <h1>FINANCIAL-WEBSITE </h1>
+
 This project is a finance website designed to provide users with financial information and services. br
 It utilizes HTML, CSS, and JavaScript for the client-side frontend and MongoDB with Node.js for the backend server.
 
