@@ -7,9 +7,9 @@ It utilizes HTML, CSS, and JavaScript for the client-side frontend and MongoDB w
 <h2>Introduction</h2>
 Welcome to the FinancIAL Website project! This web application aims to offer users a platform where they can manage their finances effectively.
 From viewing account balances to making transactions and analyzing financial data, the website provides essential functionalities for financial management.
-Technologies Used Frontend: HTML, CSS, JavaScript, React (or other frontend libraries/frameworks). Backend: Node.js, Express.js, MongoDB. Others: Git (version control), npm (package manager). br
+Technologies Used Frontend: HTML, CSS, JavaScript, React (or other frontend libraries/frameworks). Backend: Node.js, Express.js, MongoDB. Others: Git (version control), npm (package manager).
 
-Contributing Contributions are welcome! If you want to contribute to this project, please fork the repository and submit a pull request with your proposed changes.
+<p>Contributing Contributions are welcome! If you want to contribute to this project, please fork the repository and submit a pull request with your proposed changes.</p>
 
 <h3>Installation To run this project locally</h3>
 follow these steps: Clone the repository:github.com/DicksonChamwada/FINANCIAL-WEBSITE
